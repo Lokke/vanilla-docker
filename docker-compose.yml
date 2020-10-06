@@ -2,7 +2,7 @@ version: '2'
 
 services:
   vanilla:
-    #image: 1drop/vanilla
+    #image: lokke/vanilla
     build:
       context: .
     restart: always
