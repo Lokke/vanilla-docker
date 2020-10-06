@@ -4,6 +4,7 @@ version: '2'
 services:
   vanilla:
     network_mode: bridge
+    name: vanilla
     #image: lokke/vanilla
     build:
       context: .
@@ -23,6 +24,7 @@ services:
       - uploads:/app/uploads
   vanilladb:
     network_mode: bridge
+    name: vanilladb
     image: mariadb:10
     # restart: always
     environment:
