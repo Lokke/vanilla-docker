@@ -7,7 +7,7 @@ RUN curl -fsSL -o vanilla.zip \
       "https://github.com/vanilla/vanilla/releases/download/Vanilla_${VANILLA_VERSION}/vanilla-${VANILLA_VERSION}.zip" \
  && rm -rf /app \
  && unzip vanilla.zip -d /usr/src/ \
- && mv /usr/src/vanilla-${VANILLA_VERSION} /app \
+ && mv /usr/src/package /app \
  && chmod +x /app \
  && mv /app/.htaccess.dist /app/.htaccess \
  && rm vanilla.zip
