@@ -1,4 +1,4 @@
-###  Vanilla forum docker image based on webdevops.io for freundeskreis jahrtausendfeld e.V..
+###  [Vanilla](https://github.com/vanilla/vanilla) forum docker image based on webdevops.io for freundeskreis jahrtausendfeld e.V..
 ---
 ![docker pulls](https://img.shields.io/docker/pulls/lokke/vanilla.svg) ![docker automated](https://img.shields.io/docker/automated/lokke/vanilla.svg) ![docker cloud](https://img.shields.io/docker/cloud/build/lokke/vanilla.svg) 
 
